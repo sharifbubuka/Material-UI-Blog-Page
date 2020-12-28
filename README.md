@@ -30,3 +30,4 @@
 - [ ] Functioning pagination
 - [ ] Query posts from MongoDB database
 - [ ] Store images in mongoDB
+- [ ] Fetch posts from Medium api
