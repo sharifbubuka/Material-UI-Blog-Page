@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     },
     blogTitle: {
       fontWeight: 800,
-      paddingBottom: theme.spacing(1)
+      paddingBottom: theme.spacing(3)
     },
     paginationContainer: {
       display: 'flex',
@@ -60,10 +60,9 @@ function App() {
           Articles
         </Typography>
         <Grid container spacing={3}>
-          <Article image="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="man smiling" title="React UseContext" />
-          <Article image="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="woman smiling" title="Testing with Jest" />
-          <Article image="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="happy man" title="Github Profile File" />
-          {/* <Article image="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="man smiling" title="React UseContext" /> */}
+          <Article avatar="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" banner="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="man smiling" title="React UseContext" />
+          <Article avatar="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" banner="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="woman smiling" title="Testing with Jest" />
+          <Article avatar="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" banner="https://images.pexels.com/photos/1181253/pexels-photo-1181253.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="happy man" title="Github Profile File" />
         </Grid>
         <Box my={4} className={classes.paginationContainer}>
           <Pagination count={10} />

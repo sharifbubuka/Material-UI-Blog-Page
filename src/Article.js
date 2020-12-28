@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-function Article({image, alt, title}) {
+function Article({avatar, banner, alt, title}) {
   const classes = useStyles()
   return (
     <Grid item xs={12} sm={6} md={4}>
@@ -31,7 +31,7 @@ function Article({image, alt, title}) {
             component="img"
             alt={alt}
             height="140"
-            image={image}
+            image={banner}
             title={alt}
           />
           <CardContent>
@@ -46,7 +46,7 @@ function Article({image, alt, title}) {
         </CardActionArea>
         <CardActions className={classes.cardActions}>
           <Box className={classes.author}>
-            <Avatar src={image} />
+            <Avatar src={avatar} />
             <Box ml={2}>
               <Typography variant="subtitle2" component="p">Bubuka Sharif</Typography>
               <Typography variant="subtitle2" color="textSecondary" component="p">May 14, 2020</Typography>
