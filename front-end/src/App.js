@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import{ AppBar, Toolbar, Typography, Box, Container, Grid } from '@material-ui/core'
 import { Pagination } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles'
@@ -39,8 +39,31 @@ const useStyles = makeStyles((theme) => ({
     }
 }))
 
+
+
 function App() {
   const classes = useStyles()
+
+  // functions
+  function fetchPosts() {
+    fetch('localhost:5000')
+    .then(response => {
+      response.json()
+    })
+    .then(data => {
+      setPosts(data)
+      console.log(data);
+    })
+    .catch(error => console.log(error))
+  }
+
+  //States
+  const [posts, setPosts] = useState([])
+
+  // useEffects
+  useEffect(() => {
+    fetchPosts()
+}, [])
 
   return (
     <div className="app">

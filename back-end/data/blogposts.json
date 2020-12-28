@@ -1,0 +1,38 @@
+[
+  {
+    "header": {
+      "title": "Business and Engineering alignment",
+      "subtitle": "Convince the business folks to let you do what you want.",
+      "description": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+      "image": {
+        "src": "avatar1.jpg"
+      }
+    },
+    "body": [
+      {
+        "subheader": "Ok, so the mission is important, so what?",
+        "paragraphs": [
+          {
+            "text": "You probably come up with these possibilities on a daily basis. It's unlikely that the product managers will bring these things to your sprint planning meetings. Why is that? The thing those investments share is that they have an indirect impact on the mission of the company. Product managers are focused on the product itself and how it's accomplishing the mission. This is normally seen from the outside with a look at capabilities, features, and customer requests. They will occasionally notice the side-effects of some of these needs: slow dev velocity, frequent bugs, performance issues. But in my experience, more often they assume that this is just the way it is and they'll focus on giving you user stories which are focused on features that will directly further the mission of the company.In your mind, you see these platform deficiencies and recognize how they are detracting from your company's ability to accomplish its mission. However, you may struggle to bring it up because you feel like you're swimming in custom requests and can't ever get around to these investments. Maybe you feel like deciding what to do with your time is not your job. But your job isn't to turn user stories into code. The company's mission is your job. The company has a mission. Everyone at the company is hired to push that mission forward, whether they be in Quality Assurance, Sales, Custodial, Marketing, Finance, Engineering, or Management. You're not a software engineer hired to code. You're a human hired to push their mission forward. It just so happens that you are a human with coding skills and during the hiring process, they recognized that those coding skills could help them in their mission." 
+          }
+        ],
+        "images": [
+          {
+            "src": "https://kentcdodds.com/static/a91b0af5467a8700ccd020897b868ac1/47203/epic-react%402x.webp",
+            "height": "",
+            "width": "",
+            "position": ""
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Kent C. Dodds",
+      "avatar": "https://kentcdodds.com/static/kent-1a92781821038056f824066c22290682.png",
+      "author_id": "A001"
+    },
+    "dateCreated": "2020-12-10",
+    "dateModified": "",
+    "bookmarked": false
+  }
+]
