@@ -1,0 +1,24 @@
+{
+  "name": "blog-page-api",
+  "version": "1.0.0",
+  "description": "Blog posts API for my blog post personal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Blog",
+    "post",
+    "Material-UI",
+    "MongoDB"
+  ],
+  "author": "Bubuka Sharif",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
